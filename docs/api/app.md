@@ -1309,6 +1309,10 @@ return true immediately after that call.
 
 Sets the application's [dock menu][dock-menu].
 
+### `app.dock.getMenu()` _macOS_
+
+Returns `Menu | null` - The application's [dock menu][dock-menu].
+
 ### `app.dock.setIcon(image)` _macOS_
 
 * `image` ([NativeImage](native-image.md) | String)
